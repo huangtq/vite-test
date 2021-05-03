@@ -4,7 +4,7 @@ module.exports = {
     { value: 'feat', name: 'feat:     新增功能' },
     { value: 'fix', name: 'fix:      修复 bug' },
     { value: 'docs', name: 'docs:     文档变更' },
-    { value: 'style', name: 'style:    代码格式（不影响功能，例如空格、分号等格式修正）' },
+    { value: 'style', name: 'style:    代码格式（不影响逻辑功能，例如空格、分号等格式修正）' },
     { value: 'refactor', name: 'refactor: 代码重构（不包括 bug 修复、功能新增）' },
     { value: 'perf', name: 'perf:     性能优化' },
     { value: 'test', name: 'test:     添加、修改测试用例' },
@@ -21,6 +21,7 @@ module.exports = {
     ['utils', 'utils 相关'],
     ['styles', '样式相关'],
     ['deps', '项目依赖'],
+    ['config', '配置与工具'],
     // 如果选择 custom，后面会让你再输入一个自定义的 scope。也可以不设置此项，把后面的 allowCustomScopes 设置为 true
     ['custom', '以上都不是？我要自定义']
   ].map(([value, description]) => {
